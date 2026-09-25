@@ -229,7 +229,7 @@ main {
 }
 
 /* ---------- home ---------- */
-#homeScreen {
+#homeScreen.active {
   display: flex;
   align-items: center;
   justify-content: center;
