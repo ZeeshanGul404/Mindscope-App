@@ -605,7 +605,7 @@ function showScreen(name) {
   Object.values(screens).forEach((s) => s.classList.remove("active"));
   screens[name].classList.add("active");
 
-  if (name === "quiz" || name === "results") {
+  if (name === "quiz" || name === "results" || name === "history") {
     requestAnimationFrame(() => {
       screens[name].scrollIntoView({ behavior: "smooth", block: "start" });
     });
